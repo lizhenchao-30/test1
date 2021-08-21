@@ -1,3 +1,21 @@
 123456
 www.github.com
 lizhenchao-30
+
+const unsigned char PasswordUserType = 1;
+const unsigned char PasswordFactoryType = 3;
+const unsigned char PasswordEngineerType = 5;
+const unsigned char PasswordCancel = 0xFF;
+
+const char* Host_Version_Global = "DPC-EX V0.33.4.0";
+const char * Host_HardwareVersion_Global = "DPC-EX V0.1";
+
+unsigned char userType = 1;
+
+const unsigned short MAIN_TASK_INTERVAL = 50;
+
+const unsigned short PRESSURE_STABLE_INTERVAL = 200;
+
+const unsigned short QUICK_TEST_MAX_POINT_NUM = 100;
+
+int screenToEnterTask = 0;//从哪里进入task
