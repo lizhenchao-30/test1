@@ -18,4 +18,3 @@ const unsigned short PRESSURE_STABLE_INTERVAL = 200;
 
 const unsigned short QUICK_TEST_MAX_POINT_NUM = 100;
 
-int screenToEnterTask = 0;//从哪里进入task
